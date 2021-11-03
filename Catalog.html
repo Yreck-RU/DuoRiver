@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+
+		<title>Title</title>
+
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no"
+		/>
+		<meta name="format-detection" content="telephone=no" />
+
+		<!-- favicon -->
+		<link
+			rel="icon"
+			type="image/x-icon"
+			sizes="192x192"
+			href="img/favicon.ico"
+		/>
+
+		<!-- fontawesome -->
+		<script
+			async
+			defer
+			src="https://kit.fontawesome.com/55e0136003.js"
+			crossorigin="anonymous"
+		></script>
+
+		<!-- reset css -->
+		<link rel="stylesheet" href="css/reset.css" />
+
+		<!-- libs css -->
+
+		<!-- main css -->
+		<link rel="stylesheet" href="css/main.css" />
+
+		<!-- jQeury -->
+		<!--<script defer src="libs/jquery.min.js"></script>-->
+
+		<!-- libs js -->
+
+		<!-- main js -->
+
+		<!-- Css код 
+		<link rel="stylesheet" href="css/style.css" />
+		 -->
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+		/>
+
+		<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<header class="heder"></header>
+			<div class="content">
+				<div class="top-link">
+					<div class="container">
+						<ul class="top-link__body">
+							<li class="top-link__body-link">
+								<a href="#" class="top-link__body-link__a">
+									Главная
+								</a>
+							</li>
+							<li class="top-link__body-link">
+								<a href="#" class="top-link__body-link__a">
+									Каталог
+								</a>
+							</li>
+							<li class="top-link__body-link">
+								<a href="#" class="top-link__body-link__a">
+									Кухни
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="kitchen-catalog">
+					<div class="container">
+						<div class="kitchen-catalog__body">
+							<div class="catalog-wraper">
+								<div class="catalog-wraper__top">
+									<div class="catalog-wraper__top-title title-h1">
+										Столы
+									</div>
+									<div class="catalog-wraper__top-body">
+										<div class="catalog-wraper__top-list">
+											<a class="catalog-wraper__top-link">
+												<span>
+													Каталог
+												</span>
+											</a>
+											<a class="catalog-wraper__top-link form-item" data-spoller333>
+												<span>
+													Цена
+												</span>
+											</a>
+											<a class="catalog-wraper__top-link form-item" data-spoller333>
+												<span>
+													Размер
+												</span>
+											</a>
+											<a class="catalog-wraper__top-link form-item" data-spoller333>
+												<span>
+													Цвет
+												</span>
+											</a>
+											<a class="catalog-wraper__top-link form-item" data-spoller333>
+												<span>
+													Материал
+												</span>
+											</a>
+										</div>
+										<div class="catalog-wraper__top-reght">
+											Сортировка: 
+											<span>
+												По популярности
+											</span>
+										</div>
+										<div class="catalog-wraper__top-body-form catalog-wraper__top-body-form2" id="form-top">
+											<form action="#" class="contacts-content-form__body form__body" data-spollers="992,max" data-one-spoller>
+												<div class="form-title__body">
+													<span>
+														Фильтр
+													</span>
+													<span class="form-title__body-reght" id="catalog-wraper__remov">
+														
+													</span>
+												</div>
+												<div class="form-price form-body">
+													<div class="form-material__wrapper">
+														<button class="form-price__title" tabindex="-1" type="button" data-spoller>Цена</button>
+														<div class="form-material__wrapper-div">
+															<div class="form-price__body">
+																<input type="number" min="1" max="2000" step="1" id="slider-handles__start" placeholder="0 ₽">
+																<span></span>
+																<input type="number" min="1" max="2000" step="1" id="slider-handles__end" placeholder="1456 ₽">
+															</div>
+															<div id="slider-handles" class="handles"></div>
+														</div>
+													</div>
+												</div>
+												<div class="form-thesize form-body">
+													<div class="form-material__wrapper">
+														<button class="form-price__title" tabindex="-1" type="button" data-spoller>Размер</button>
+														<div class="form-material__wrapper-div">
+															<div class="form-thesize__blok">
+															<div class="form-price__title">
+																Ширина, см
+															</div>
+															<div class="form-price__body">
+																<input type="number" min="1" max="2000" step="1" id="slider-handles__start" placeholder="от 0 см">
+																<span></span>
+																<input type="number" min="1" max="2000" step="1" id="slider-handles__end" placeholder="до 450см">
+															</div>
+															</div>
+															<div class="form-thesize__blok">
+															<div class="form-price__title">
+																Глубина, см
+															</div>
+															<div class="form-price__body">
+																<input type="number" min="1" max="2000" step="1" id="slider-handles__start" placeholder="от 0 см">
+																<span></span>
+																<input type="number" min="1" max="2000" step="1" id="slider-handles__end" placeholder="до 450см">
+															</div>
+															</div>
+															<div class="form-thesize__blok">
+															<div class="form-price__title">
+																Высота, см
+															</div>
+															<div class="form-price__body">
+																<input type="number" min="1" max="2000" step="1" id="slider-handles__start" placeholder="от 0 см">
+																<span></span>
+																<input type="number" min="1" max="2000" step="1" id="slider-handles__end" placeholder="до 450см">
+															</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="form-color form-body">
+													<div class="form-material__wrapper">
+														<button class="form-price__title" tabindex="-1" type="button" data-spoller>
+															Цвет
+														</button>
+														<div class="form-material__wrapper-div">
+															<div class="catalog-wraper__form__body-blok__checkbox form__body-blok__checkbox">
+																<input type="checkbox" class="catalog-wraper__custom-checkbox custom-checkbox" id="happy1" name="happy" value="yes">
+																<label for="happy1">Бежевый</label>
+															</div>
+															<div class="catalog-wraper__form__body-blok__checkbox form__body-blok__checkbox">
+																<input type="checkbox" class="catalog-wraper__custom-checkbox custom-checkbox" id="happy2" name="happy" value="yes">
+																<label for="happy2">Черный</label>
+															</div>
+															<div class="catalog-wraper__form__body-blok__checkbox form__body-blok__checkbox">
+																<input type="checkbox" class="catalog-wraper__custom-checkbox custom-checkbox" id="happy3" name="happy" value="yes">
+																<label for="happy3">Коричневый</label>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="form-material form-body">
+													<div class="form-material__wrapper">
+														<button class="form-price__title" tabindex="-1" type="button" data-spoller>
+															Материал обивки
+														</button>
+														<div class="form-material__wrapper-div">
+															<div class="catalog-wraper__form__body-blok__checkbox form__body-blok__checkbox">
+																<input type="checkbox" class="catalog-wraper__custom-checkbox custom-checkbox" id="happy4" name="happy" value="yes">
+																<label for="happy4">Велюр</label>
+															</div>
+															<div class="catalog-wraper__form__body-blok__checkbox form__body-blok__checkbox">
+																<input type="checkbox" class="catalog-wraper__custom-checkbox custom-checkbox" id="happy5" name="happy" value="yes">
+																<label for="happy5">Рогожа</label>
+															</div>
+															<div class="catalog-wraper__form__body-blok__checkbox form__body-blok__checkbox">
+																<input type="checkbox" class="catalog-wraper__custom-checkbox custom-checkbox" id="happy6" name="happy" value="yes">
+																<label for="happy6">Корфу</label>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="form-button__body">
+													<button class="form-button__blok" id="catalog-wraper__remov">Отмена</button>
+													<button class="form-button__blok" id="catalog-wraper__remov">Применить</button>
+												</div>
+											</form>
+										</div>
+									</div>
+									<div class="catalog-wraper__top-body__mb">
+										<div class="catalog-wraper__top-body__mb-button catalog-wraper__top-body__mb-button-left">
+											<span>
+												Фильтр
+											</span>
+										</div>
+										<div class="catalog-wraper__top-body__mb-button catalog-wraper__top-body__mb-button-reght">
+											<span>
+												Сортировка
+											</span>
+										</div>
+									</div>
+								</div>
+								<div class="catalog-wraper__content">
+									
+								</div>
+							</div>
+							<div class="kitchen-catalog__body-butons">
+								<button class="kitchen-catalog__body-butons__buton">
+									<span></span>Показать еще
+								</button>
+								<div class="kitchen-catalog__body-butons__poginechion">
+									<a href="" class="kitchen-catalog__body-butons__poginechion-link kitchen-catalog__body-butons__poginechion-link-left ">
+										<i class="icon-Vector-Stroke__left"></i>
+									</a>
+									<a href="" class="kitchen-catalog__body-butons__poginechion-link activ">
+										1
+									</a>
+									<a href="" class="kitchen-catalog__body-butons__poginechion-link">
+										2
+									</a>
+									<a href="" class="kitchen-catalog__body-butons__poginechion-link">
+										3
+									</a>
+									<a href="" class="kitchen-catalog__body-butons__poginechion-link">
+										4
+									</a>
+									<a href="" class="kitchen-catalog__body-butons__poginechion-link kitchen-catalog__body-butons__poginechion-link-reght">
+										<i class="icon-Vector-Stroke__reght"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slaider-2 slaider_3">
+					<div class="container">
+						<div class="slaider-body">
+							<div class="other-albums__body">
+								<div class="other-albums__body-left title-h2">
+									Новинки
+								</div>
+								<div class="other-albums__body-reght">
+									<div class="other-albums__body-reght-buton other-albums__body-reght-buton__next slaider_3__other-albums__body-reght-buton__prev">
+										<span class="icon-Vector-Stroke__left">
+											<!--<i class="fa fa-angle-left"></i>-->
+										</span>
+									</div>
+									<div class="other-albums__body-reght-buton other-albums__body-reght-buton__prev slaider_3__other-albums__body-reght-buton__next">
+										<span class="icon-Vector-Stroke__reght">
+											<!--<i class="fa fa-angle-right"></i>-->
+										</span>
+									</div>
+								</div>
+							</div>
+							<div class="slaider-3__body-slaider">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide slaider-2__clide">
+										<a href="" class="slaider-2__clide-body nev">
+											<div class="slaider-3__clide-body__img ibg">
+												<img src="img/slaiders/3.jpg" alt="">
+											</div>
+											<div class="slaider-2__clide-body__content">
+												<div class="slaider__text slaider-2__text">
+													Стол складной <br>
+													пластиковый Кейт 180
+												</div>
+												<div class="slaider__text-b">
+													5 990 ₽
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide slaider-2__clide">
+										<a href="" class="slaider-2__clide-body nev">
+											<div class="slaider-3__clide-body__img ibg">
+												<img src="img/slaiders/3.jpg" alt="">
+											</div>
+											<div class="slaider-2__clide-body__content">
+												<div class="slaider__text slaider-2__text">
+													Стол складной <br>
+													пластиковый Кейт 180
+												</div>
+												<div class="slaider__text-b">
+													5 990 ₽
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide slaider-2__clide">
+										<a href="" class="slaider-2__clide-body nev">
+											<div class="slaider-3__clide-body__img ibg">
+												<img src="img/slaiders/3.jpg" alt="">
+											</div>
+											<div class="slaider-2__clide-body__content">
+												<div class="slaider__text slaider-2__text">
+													Стол складной <br>
+													пластиковый Кейт 180
+												</div>
+												<div class="slaider__text-b">
+													5 990 ₽
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide slaider-2__clide">
+										<a href="" class="slaider-2__clide-body nev">
+											<div class="slaider-3__clide-body__img ibg">
+												<img src="img/slaiders/3.jpg" alt="">
+											</div>
+											<div class="slaider-2__clide-body__content">
+												<div class="slaider__text slaider-2__text">
+													Стол складной <br>
+													пластиковый Кейт 180
+												</div>
+												<div class="slaider__text-b">
+													5 990 ₽
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide slaider-2__clide">
+										<a href="" class="slaider-2__clide-body nev">
+											<div class="slaider-3__clide-body__img ibg">
+												<img src="img/slaiders/3.jpg" alt="">
+											</div>
+											<div class="slaider-2__clide-body__content">
+												<div class="slaider__text slaider-2__text">
+													Стол складной <br>
+													пластиковый Кейт 180
+												</div>
+												<div class="slaider__text-b">
+													5 990 ₽
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide slaider-2__clide">
+										<a href="" class="slaider-2__clide-body nev">
+											<div class="slaider-3__clide-body__img ibg">
+												<img src="img/slaiders/3.jpg" alt="">
+											</div>
+											<div class="slaider-2__clide-body__content">
+												<div class="slaider__text slaider-2__text">
+													Стол складной <br>
+													пластиковый Кейт 180
+												</div>
+												<div class="slaider__text-b">
+													5 990 ₽
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<footer class="footer"></footer>
+		</div>
+		<script defer src="js/nouislider.js"></script>
+		<script defer src="js/custom.js"></script>
+	</body>
+</html>
