@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Duo River</title>
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- favicon -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      sizes="192x192"
+      href="img/favicon.ico"
+    />
+
+    <!-- fontawesome -->
+    <script
+      async
+      defer
+      src="https://kit.fontawesome.com/55e0136003.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- reset css -->
+    <link rel="stylesheet" href="css/reset.css" />
+
+    <!-- libs css -->
+
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- jQeury -->
+    <script defer src="libs/jquery.min.js"></script>
+
+    <!-- libs js -->
+
+    <!-- main js -->
+    <script defer src="js/custom.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  </head>
+
+  <body>
+    <header></header>
+    <section class="ordering-inner">
+      <div class="container ordering__container">
+        <form action="#" class="ordering-block">
+          <div class="ordering-wrapper">
+            <ul class="top-link__body top-link">
+              <li class="top-link__body-link">
+                <a href="#" class="top-link__body-link__a">
+                  Главная
+                </a>
+              </li>
+              <li class="top-link__body-link">
+                <a href="#" class="top-link__body-link__a">
+                  Каталог
+                </a>
+              </li>
+              <li class="top-link__body-link">
+                <a href="#" class="top-link__body-link__a">
+                  Кухни
+                </a>
+              </li>
+            </ul>
+            <h1 class="title-h2 ordering-wrapper__title-h1">Оформление заказа</h1>
+            <div class="ordering-block__personal-info">
+              <h4 class="">Личная информация</h4>
+              <div class="order-personal-info">
+                <input type="text" name="fio" placeholder="ФИО" required class="input_hover">
+                <input type="tel" name="tel" placeholder="Телефон" required class="input_hover">
+                <input type="email" name="email" placeholder="Email" required class="input_hover">
+              </div>
+            </div>
+            <div class="ordering-block__delivery-info">
+              <h4>Доставка</h4>
+              <div class="delivery-checkbox">
+                <div class="radio">
+                  <input id="delivery" name="pickup" type="radio" checked />
+                  <label for="delivery" class="radio-label">Доставка</label>
+                </div>
+
+                <div class="radio">
+                  <input id="pickup" name="pickup" type="radio" />
+                  <label for="pickup" class="radio-label">Самовывоз</label>
+                </div>
+              </div>
+              <div class="order-delivery-info">
+                <input 
+                  class="order-delivery-city input_hover"
+                  type="text"
+                  name="fio"
+                  placeholder="Город, улица, дом , квартира"
+                  required
+                  
+                >
+                <input type="text" name="city" placeholder="Подъезд" required class="input_hover">
+
+                <input type="text" name="floor" placeholder="Этаж" required class="input_hover">
+                <input
+                  type="text"
+                  name="index-code"
+                  placeholder="Код"
+                  required
+                  class="input_hover"
+                />
+              </div>
+              <div class="build-block-info">
+                <h4>Сборка</h4>
+                <div class="build-checkbox">
+                  <div class="radio">
+                    <input id="build" name="pickup2" type="radio" checked />
+                    <label for="build" class="radio-label">Нужна</label>
+                  </div>
+
+                  <div class="radio">
+                    <input id="no-build" name="pickup2" type="radio" />
+                    <label for="no-build" class="radio-label">Не нужна</label>
+                  </div>
+                </div>
+              </div>
+              <div class="pays-block-info">
+                <h4>Оплата</h4>
+                <div class="pays-checkbox">
+                  <div class="radio">
+                    <input
+                      id="pays-online"
+                      name="pickup3"
+                      type="radio"
+                      checked
+                    />
+                    <label for="pays-online" class="radio-label"
+                      >Картой онлайн</label
+                    >
+                  </div>
+
+                  <div class="radio">
+                    <input id="pays-offline" name="pickup3" type="radio" />
+                    <label for="pays-offline" class="radio-label"
+                      >Наличными</label
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="comments-order-block-info">
+                <h4>Комментарии к заказу</h4>
+                <textarea
+                  name="comments-order"
+                  id="comments-order"
+                  cols="140"
+                  rows="10"
+                  placeholder="Оставить комментарии к заказу"
+                  class="input_hover"
+                ></textarea>
+              </div>
+            </div>
+          </div>
+          <aside class="right-cart">
+            <div class="cart-item-wrapper">
+              <div class="cart-item">
+                <img src="img/cart-img-item.png" alt="cart-img-item" />
+                <div class="cart-item-info">
+                  <a href="#" class="cart-item-name"
+                    >Стол складной<br />
+                    пластиковый Кейт 180</a
+                  >
+                  <div>
+                    <span class="cart-count-info">1 товар</span>
+                    <span class="cart-item-price">5 990 ₽</span>
+                  </div>
+                </div>
+              </div>
+              <div class="cart-item">
+                <img src="img/cart-img-item.png" alt="cart-img-item" />
+                <div class="cart-item-info">
+                  <a href="#" class="cart-item-name"
+                    >Стол складной<br />
+                    пластиковый Кейт 180</a
+                  >
+                  <div>
+                    <span class="cart-count-info">1 товар</span>
+                    <span class="cart-item-price">5 990 ₽</span>
+                  </div>
+                </div>
+              </div>
+              <div class="count-price">
+                <div class="total-price">
+                  <p>2 товарa на сумму</p>
+                  <span>16 800 ₽</span>
+                </div>
+                <div class="build-price">
+                  <p>Сборка</p>
+                  <span>5000 ₽</span>
+                </div>
+                <div class="delivery-price">
+                  <p>Доставка</p>
+                  <span> 800 ₽</span>
+                </div>
+              </div>
+              <div class="to-pays">
+                <p>К оплате</p>
+                <span>5 990 ₽</span>
+              </div>
+              <a href="#" class="checkout">Оформить заказ</a>
+            </div>
+          </aside>
+        </form>
+      </div>
+    </section>
+    <footer></footer>
+  </body>
+</html>
